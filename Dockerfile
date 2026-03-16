@@ -1,5 +1,5 @@
 # Use OpenJDK 17 as base image
-FROM openjdk:17-bullseye
+FROM openjdk:17-slim-bullseye
 
 # Set working directory inside container
 WORKDIR /app
